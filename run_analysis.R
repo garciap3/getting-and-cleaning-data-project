@@ -1,7 +1,7 @@
 filename <- file.path(getwd(), "getdata_dataset.zip")
 fileURL <-
     "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-tidyfile <- file.path(getwd(), "tidydata")
+tidyfile <- file.path(getwd(), "tidydata.txt")
 
 ## Download and unzip the dataset:
 
