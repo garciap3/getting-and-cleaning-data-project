@@ -1,5 +1,7 @@
 # Getting and Cleaning Data Course Project
 
+The `run_analysis.R` script, does the next tasks:
+
 - Downloading the Data
 - Unzipping the file
 - Load activity labels + features

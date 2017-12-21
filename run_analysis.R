@@ -13,7 +13,6 @@ if (!file.exists("UCI HAR Dataset")) {
     print("Unzipping")
     unzip(filename)
     file.remove(filename)
-    
 }
 
 # Load activity labels + features
@@ -59,7 +58,7 @@ allData.melted <- melt(allData, id = c("subject", "activity"))
 allData.mean <-
     dcast(allData.melted, subject + activity ~ variable, mean)
 
-print("saving tidy data file ")
+print("saving tidy data file")
 write.table(allData.mean,
             tidyfile,
             row.names = FALSE,
