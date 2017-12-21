@@ -15,4 +15,4 @@ The `run_analysis.R` script, does the next tasks:
 
 
 
-The result is on file _tidydata_
+The result is on file _tidydata.txt_

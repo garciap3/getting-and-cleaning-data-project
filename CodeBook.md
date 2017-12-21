@@ -1,6 +1,6 @@
 # Code Book
 
-This document summarizes the data fields in `tidydata`.
+This document summarizes the data fields in `tidydata.txt`.
 
 ## Identifiers
 
